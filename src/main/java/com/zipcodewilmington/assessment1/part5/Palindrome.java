@@ -11,7 +11,7 @@ public class Palindrome {
                     count++;
             }
         }
-        return count + input.length();
+        return count + input.length(); //individual chars are always palindrome
     }
 
     public boolean isPalindrome(String input){

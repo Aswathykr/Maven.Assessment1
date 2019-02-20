@@ -1,6 +1,7 @@
 package com.zipcodewilmington.assessment1.part3;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by leon on 2/16/18.
@@ -19,6 +20,7 @@ public class PetOwner {
                 pet.setOwner(this);
                 this.pets.add(pet);
             }
+            //this.pets = new ArrayList(Arrays.asList(pets));
         }
         this.name = name;
     }
